@@ -1,4 +1,4 @@
-variable "AWS_ACCOUNT_ID" {
-  description = "The vcs oauth token"
+variable "aws_account_id" {
+  description = "Tthe AWS account id"
   type        = string
 }
