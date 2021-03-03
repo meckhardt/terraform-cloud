@@ -4,6 +4,7 @@ resource "tfe_workspace" "my-app" {
   working_directory = "app"
   vcs_repo {
     identifier = "meckhardt/terraform-cloud"
+    branch = "main"
     oauth_token_id = var.vcs_oauth_token
   }
 }
