@@ -5,7 +5,7 @@ module "lambda" {
   description   = "My awesome lambda function"
   handler       = "index.handler"
   runtime       = "python3.8"
-  source_path = "../lambda"
+  source_path = "./lambda"
 
   tags = {
     Name = "TheLambda"
